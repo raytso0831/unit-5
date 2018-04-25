@@ -7,4 +7,10 @@ middle=len(words)
 
 if middle%2==0:
     print(words[middle//2])
+    print(words[middle//2-1])
+
+    
+
+elif middle%2!=0:
+    print(words[middle//2])
 
