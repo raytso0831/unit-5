@@ -5,11 +5,10 @@
 
 words = input('Enter a list of words: ').split(' ')
 
-
 l = 0
 word = ""
 for w in words:
-    lenn = len(h)
+    lenn = len(w)
     if lenn > l:
         l = lenn
         word = w
