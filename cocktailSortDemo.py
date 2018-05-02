@@ -1,6 +1,6 @@
 #Ray Tso
 #5/2/18
-#sortingTemplate.py - times a sorting function
+#cocktailSortDemo.py- Implementing cocktail sort
 
 from random import randint
 from time import time
