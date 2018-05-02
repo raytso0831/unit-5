@@ -8,6 +8,14 @@ from time import time
 N = 10 #how many numbers will be sorted
 
 def mySort(A):
+    swampped=True
+    while swapped:
+        swapped=False
+        for i in range(0,len(A)-1):
+            If A[i]>A[i+1]
+            A[t],A[i+1]=A[i+1],A[i]
+        if not swapped:
+            break
     return A
     
 if __name__ == '__main__':
