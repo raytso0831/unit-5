@@ -5,7 +5,7 @@
 from random import randint
 from time import time
 
-N = 10 #how many numbers will be sorted
+N = 100 #how many numbers will be sorted
 
 def mySort(A):
     swapped = True
@@ -42,6 +42,6 @@ if __name__ == '__main__':
     #print whether the sort worked or not
     try:
         assert(numbers == pythonSort)
-        print('Your sort took', t2-t1, 'seconds')
+        print('\nYour sort took', t2-t1, 'seconds')
     except:
         print('Your sort did not work')
