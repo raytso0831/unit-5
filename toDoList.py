@@ -14,7 +14,7 @@ while True:
             print(w)
     elif task[:4] == "add ":
         toDoList.append(task[4:])
-    elif task[7:] == "delete ":
+    elif task[:7] == "delete ":
         if task[7:] in toDoList:
             toDoList.remove(task[7:])
         else:
