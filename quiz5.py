@@ -6,7 +6,7 @@ def penultimate(A):
     return(A[len(A)-1])
     
 def plusEquals(X,Y):
-    for i in range(0,len(B)):
+    for i in range(0,len(X)):
         X[i] += Y
     return Y
 
