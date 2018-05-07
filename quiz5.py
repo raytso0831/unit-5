@@ -6,9 +6,9 @@ def penultimate(A):
     return(A[len(A)-1])
     
 def plusEquals(B,C):
-    for i in range(0,len(B)):
-        B[i] += C
-    return B
+    for r in range(0,len(B)):
+        B[r] += C
+    return C
 
 
     
@@ -21,5 +21,5 @@ def smallest(D):
     
     
 print(penultimate(['clock','table','computers']))
-print([1,2,3,4],10)
-print(smallest([3,-1,5,-2,7,2,1]))
+print(plusEquals([1,2,3,4],10))
+print(smallest([3,-1,5,-2,7,-4,1]))
