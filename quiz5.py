@@ -5,19 +5,19 @@
 def penultimate(A):
     return(A[len(A)-1])
     
-def plusEquals(B,C):
+def plusEquals(X,Y):
     for i in range(0,len(B)):
-        B[i] += C
-    return C
+        X[i] += Y
+    return Y
 
 
     
-def smallest(D):
-    D1 = D[0]
-    for i in D:
-        if i<D1:
-            D1 = i
-    return D1
+def smallest(B):
+    B1 = B[0]
+    for i in B:
+        if i<B1:
+            B1 = i
+    return B1
     
     
 print(penultimate(['clock','table','computers']))
