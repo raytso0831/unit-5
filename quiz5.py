@@ -6,8 +6,8 @@ def penultimate(A):
     return(A[len(A)-1])
     
 def plusEquals(B,C):
-    for r in range(0,len(B)):
-        B[r] += C
+    for i in range(0,len(B)):
+        B[i] += C
     return C
 
 
